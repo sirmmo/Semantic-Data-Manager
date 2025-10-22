@@ -1,3 +1,4 @@
+
 <mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="it">
   <siteinfo>
     <sitename>Digital Twin</sitename>
@@ -1236,6 +1237,255 @@ end
 &lt;/templatedata&gt;
 &lt;/noinclude&gt;</text>
       <sha1>aamxqc16ky53rqlzkjfctol11vdqkq4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Bologna Digital Twin</title>
+    <ns>0</ns>
+    <id>1</id>
+    <revision>
+      <id>1445</id>
+      <parentid>1439</parentid>
+      <timestamp>2025-10-22T08:25:50Z</timestamp>
+      <contributor>
+        <ip>79.35.53.222</ip>
+      </contributor>
+      <origin>1445</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3126" sha1="kf926ni6pkr8qqf9hkcayjakg1whopu" xml:space="preserve">
+
+__NOTOC__
+{| class="wikitable"
+!
+!Elementi
+[[Informazioni Generali]]
+!Modelli
+!Proprietà
+!Entities
+|- style="veritcal-align: top"
+!Configuration
+|
+* [[Configurazione]]
+* [[DataProviderConfiguration]]
+{{#ask:
+[[IsA::DataProviderConfiguration]]
+|?Name
+|format=ul
+}}
+|
+* [[Template:Configuration]]
+|
+|
+|- style="vertical-align:top;"
+!Ontologia Generale
+|
+* [[DataProvider]]
+* [[DataInfrastructure|DataInfrasrtructure]]
+|
+* [[Template:DataInfrastructure]]
+|
+* [[Property:IsA]]
+* [[Property:Name]]
+|
+|- style="vertical-align:top;"
+![[Fonti Dati]]
+|
+&lt;inputbox&gt;
+type=create
+width=30
+preload=TemplatePage:DataSet
+labeltext=Create DataSet
+break=no
+&lt;/inputbox&gt;
+
+|
+* [[Template:DataSet]] 
+* [[Template:DataSetColumn]]
+* [[Template:DataSource]]
+* [[Template:DataImportFilter]]
+* [[Template:DataImportFormat]]
+* [[Template:Geolocated]]
+|
+* [[Property:DataSet]]
+* [[Property:ProvidedBy]]
+* [[Property:ProvidedBy|Property:HasGeometry]]
+* [[Property:ProvidedBy|Property:GeometryFormat]]
+* [[Property:ProvidedBy|Property:GeometryField]]
+|
+|-
+!DataContainer
+|
+
+&lt;inputbox&gt;
+type=create
+width=30
+break=no
+&lt;/inputbox&gt;
+{{#ask:
+[[IsA::DataContainer]]
+|format=ul
+}}
+|
+* [[Template:DataContainer]]
+* [[Template:Join]]
+* [[Template:DataFilter]]
+* [[Template:DataMapping]]
+* [[Template:FieldMapping]]
+|
+* [[Proprietà:HasJoin]]
+* [[Proprietà:HasFilter]]
+|
+|-
+!Temporal
+DataContainer
+|&lt;inputbox&gt;
+type=create
+width=30
+break=no
+&lt;/inputbox&gt;
+{{#ask:
+[[IsA::DataContainer]]
+|format=ul
+}}
+|
+* [[Template:TransformationDescriptor]]
+|
+|
+|- style="vertical-align:top;"
+![[Map|Maps]]
+|
+
+&lt;inputbox&gt;
+type=create
+width=30
+break=no
+
+preload=TemplatePage:Map
+&lt;/inputbox&gt;
+{{#ask:
+[[IsA::Map]]
+|format = ul
+}}
+|
+* [[Template:Map]] 
+* [[Template:MapIndex]]
+* [[Template:UseDataSource]]
+*
+
+*
+|
+* [[Property:Map]]
+* [[Property:MapIndex]]
+* [[Property:Index]]
+*
+|
+|-
+!Modello Glassbox
+!Elementi
+!Modelli
+!Proprietà
+!
+|- style="vertical-align:top;"
+![[Unit|Units]]
+|
+
+&lt;inputbox&gt;
+type=create
+width=30
+break=no
+preload=TemplatePage:Unit
+&lt;/inputbox&gt;
+{{#ask:
+[[IsA::Unit]]
+|format = ul
+}}
+|
+*[[Template:Unit]]
+*[[Template:NetworkUnit]]
+|
+* [[Property:Unit]]
+|
+|- style="vertical-align:top;"
+![[UnitRule|UnitRules]]
+|
+
+&lt;inputbox&gt;
+type=create
+width=30
+break=no
+&lt;/inputbox&gt;
+{{#ask:
+[[IsA::UnitRule]]
+|format = ul
+}}
+|
+* [[Template:Rule]]
+
+* [[Template:UnitRule]]
+|
+* [[Property:UnitRule]]
+|
+|- style="vertical-align:top;"
+![[AgentRule|AgentRules]]
+|
+
+&lt;inputbox&gt;
+type=create
+width=30
+break=no
+&lt;/inputbox&gt;
+
+{{#ask:
+[[IsA::AgentRule]]
+|format = ul
+}}
+|
+* [[Template:AgentRule]]  
+|
+|
+|- style="vertical-align:top;"
+![[Network|Networks]]
+|
+
+&lt;inputbox&gt;
+type=create
+width=30
+break=no
+&lt;/inputbox&gt;
+
+{{#ask:
+[[IsA::Network]]
+|format = ul
+}}
+|
+* [[Template:Network]]  
+|
+|
+|-
+!Infrastruttura
+!Elementi
+!Modelli
+!Proprietà
+!
+|-
+!Infrastructure
+|
+|
+|
+* [[Proprietà:RefersTo]]
+* [[Proprietà:Timestamp]]
+|
+|}
+
+== API ==
+https://www.semantic-mediawiki.org/wiki/Help:API
+
+&lt;nowiki&gt;http://51.15.160.236:8880/api.php?action=ask&amp;query=[[Modification date::+|Modification date::+]]|?Modification date|sort=Modification date|order=desc&amp;format=jsonfm&amp;api_version=3&lt;/nowiki&gt;
+
+
+[[Category:Exportable]]</text>
+      <sha1>kf926ni6pkr8qqf9hkcayjakg1whopu</sha1>
     </revision>
   </page>
 </mediawiki>
