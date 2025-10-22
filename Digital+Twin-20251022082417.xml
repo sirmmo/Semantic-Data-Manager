@@ -1,0 +1,1241 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="it">
+  <siteinfo>
+    <sitename>Digital Twin</sitename>
+    <dbname>mediawiki</dbname>
+    <base>http://51.15.160.236:8880/index.php/Pagina_principale</base>
+    <generator>MediaWiki 1.39.11</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Speciale</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussione</namespace>
+      <namespace key="2" case="first-letter">Utente</namespace>
+      <namespace key="3" case="first-letter">Discussioni utente</namespace>
+      <namespace key="4" case="first-letter">Digital Twin</namespace>
+      <namespace key="5" case="first-letter">Discussioni Digital Twin</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">Discussioni file</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussioni MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Discussioni template</namespace>
+      <namespace key="12" case="first-letter">Aiuto</namespace>
+      <namespace key="13" case="first-letter">Discussioni aiuto</namespace>
+      <namespace key="14" case="first-letter">Categoria</namespace>
+      <namespace key="15" case="first-letter">Discussioni categoria</namespace>
+      <namespace key="102" case="first-letter">Proprietà</namespace>
+      <namespace key="103" case="first-letter">Discussione proprietà</namespace>
+      <namespace key="108" case="first-letter">Concetto</namespace>
+      <namespace key="109" case="first-letter">Discussione concetto</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="828" case="first-letter">Modulo</namespace>
+      <namespace key="829" case="first-letter">Discussioni modulo</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Template:Configuration</title>
+    <ns>10</ns>
+    <id>504</id>
+    <revision>
+      <id>1441</id>
+      <parentid>1382</parentid>
+      <timestamp>2025-09-17T07:35:19Z</timestamp>
+      <contributor>
+        <ip>82.58.28.171</ip>
+      </contributor>
+      <origin>1441</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="545" sha1="mm7osvfwuilbzjlawo3ycthjh4hdjeu" xml:space="preserve">|-
+| {{{group|}}} || {{{name|}}} || {{{value|}}}
+{{#subobject:{{{name}}}
+|IsA=Configuration
+|Group={{{group|}}}
+|Name={{{name|}}}
+|Value={{{value|}}}
+}}
+&lt;noinclude&gt;
+&lt;templatedata&gt;
+{
+	"params": {
+		"name": {
+			"type": "string",
+			"required": true
+		},
+		"value": {
+			"type": "string",
+			"required": true
+		},
+		"mode": {
+			"type": "string",
+			"suggestedvalues": [
+				"blur",
+				"default"
+			],
+			"default": "default"
+		},
+		"group": {
+			"type": "string"
+		}
+	},
+	"format": "inline"
+}
+&lt;/templatedata&gt;
+[[Category:Exportable]]
+&lt;/noinclude&gt;</text>
+      <sha1>mm7osvfwuilbzjlawo3ycthjh4hdjeu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:IsA</title>
+    <ns>102</ns>
+    <id>35</id>
+    <revision>
+      <id>1442</id>
+      <parentid>1383</parentid>
+      <timestamp>2025-09-17T07:36:06Z</timestamp>
+      <contributor>
+        <ip>82.58.28.171</ip>
+      </contributor>
+      <origin>1442</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="96" sha1="5xu9kk6ku2v5u8ovqqpbsan98nrx0dl" xml:space="preserve">Rappresenta che tipo di oggetto stiamo descrivendo
+[[SameAs::Has type]]
+
+[[Category:Exportable]]</text>
+      <sha1>5xu9kk6ku2v5u8ovqqpbsan98nrx0dl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:Name</title>
+    <ns>102</ns>
+    <id>76</id>
+    <revision>
+      <id>1384</id>
+      <parentid>307</parentid>
+      <timestamp>2025-05-15T08:45:13Z</timestamp>
+      <contributor>
+        <ip>87.1.54.113</ip>
+      </contributor>
+      <origin>1384</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="42" sha1="bk2o0k4kgmnyjpcqg8qcsejnfui5qhz" xml:space="preserve">[[Has type::Text]]
+[[Category:Exportable]]</text>
+      <sha1>bk2o0k4kgmnyjpcqg8qcsejnfui5qhz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:ProvidedBy</title>
+    <ns>102</ns>
+    <id>73</id>
+    <revision>
+      <id>1385</id>
+      <parentid>292</parentid>
+      <timestamp>2025-05-15T08:45:27Z</timestamp>
+      <contributor>
+        <ip>87.1.54.113</ip>
+      </contributor>
+      <origin>1385</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="45" sha1="rlaam50qunxfw8xdtj2snuoyjrnah4e" xml:space="preserve">Fornitore del dataset
+[[Category:Exportable]]</text>
+      <sha1>rlaam50qunxfw8xdtj2snuoyjrnah4e</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:DataSet</title>
+    <ns>102</ns>
+    <id>51</id>
+    <revision>
+      <id>1386</id>
+      <parentid>389</parentid>
+      <timestamp>2025-05-15T08:45:31Z</timestamp>
+      <contributor>
+        <ip>87.1.54.113</ip>
+      </contributor>
+      <origin>1386</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="263" sha1="m73h6y4d1iarbodv2vpdpno7qnq4szl" xml:space="preserve">Dataset descriptor
+{{#knowledgegraph:
+ |properties=DataSet
+ |depth=4
+ |show-property-type=false
+ |graph-options=MediaWiki:KnowledgeGraphOptions
+ |property-options?Organization logo=KnowledgeGraphOptionsImage
+ |width=100%
+ |height=400px 
+}}
+[[Category:Exportable]]</text>
+      <sha1>m73h6y4d1iarbodv2vpdpno7qnq4szl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:HasJoin</title>
+    <ns>102</ns>
+    <id>204</id>
+    <revision>
+      <id>1403</id>
+      <parentid>579</parentid>
+      <timestamp>2025-06-11T09:54:17Z</timestamp>
+      <contributor>
+        <ip>82.58.32.186</ip>
+      </contributor>
+      <origin>1403</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="60" sha1="3gygj8wrwvei3z49f1gh5v8xg5l34fh" xml:space="preserve">Rappresenta una join fra due tabelle
+[[Category:Exportable]]</text>
+      <sha1>3gygj8wrwvei3z49f1gh5v8xg5l34fh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:Map</title>
+    <ns>102</ns>
+    <id>60</id>
+    <revision>
+      <id>1404</id>
+      <parentid>231</parentid>
+      <timestamp>2025-06-11T09:54:30Z</timestamp>
+      <contributor>
+        <ip>82.58.32.186</ip>
+      </contributor>
+      <origin>1404</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="29" sha1="38ajekyra80w4bvo3n06q0njd7zdrmq" xml:space="preserve">Mappe
+[[Category:Exportable]]</text>
+      <sha1>38ajekyra80w4bvo3n06q0njd7zdrmq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:MapIndex</title>
+    <ns>102</ns>
+    <id>63</id>
+    <revision>
+      <id>1405</id>
+      <parentid>250</parentid>
+      <timestamp>2025-06-11T09:54:42Z</timestamp>
+      <contributor>
+        <ip>82.58.32.186</ip>
+      </contributor>
+      <origin>1405</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="43" sha1="l7h9e18lyi2sqszj29pk14rza0b142p" xml:space="preserve">Index per la mappa
+
+[[Category:Exportable]]</text>
+      <sha1>l7h9e18lyi2sqszj29pk14rza0b142p</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:Index</title>
+    <ns>102</ns>
+    <id>64</id>
+    <revision>
+      <id>1406</id>
+      <parentid>288</parentid>
+      <timestamp>2025-06-11T09:54:55Z</timestamp>
+      <contributor>
+        <ip>82.58.32.186</ip>
+      </contributor>
+      <origin>1406</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="73" sha1="sgn6rxv6fcz8r1s27ex740r18hd9sjk" xml:space="preserve">Name of the index on the map
+
+[[Has type::Text]]
+
+[[Category:Exportable]]</text>
+      <sha1>sgn6rxv6fcz8r1s27ex740r18hd9sjk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:Unit</title>
+    <ns>102</ns>
+    <id>52</id>
+    <revision>
+      <id>1407</id>
+      <parentid>214</parentid>
+      <timestamp>2025-06-11T09:56:22Z</timestamp>
+      <contributor>
+        <ip>82.58.32.186</ip>
+      </contributor>
+      <origin>1407</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="40" sha1="9vuw13t917fn291h7ay98992hkrhm3u" xml:space="preserve">Unit descriptor
+
+[[Category:Exportable]]</text>
+      <sha1>9vuw13t917fn291h7ay98992hkrhm3u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:UnitRule</title>
+    <ns>102</ns>
+    <id>53</id>
+    <revision>
+      <id>1408</id>
+      <parentid>217</parentid>
+      <timestamp>2025-06-11T09:56:32Z</timestamp>
+      <contributor>
+        <ip>82.58.32.186</ip>
+      </contributor>
+      <origin>1408</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="34" sha1="e3cejnyxucsaa62dr8qsrtnvyzdrdew" xml:space="preserve">UnitRules
+
+[[Category:Exportable]]</text>
+      <sha1>e3cejnyxucsaa62dr8qsrtnvyzdrdew</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:RefersTo</title>
+    <ns>102</ns>
+    <id>468</id>
+    <revision>
+      <id>1409</id>
+      <parentid>910</parentid>
+      <timestamp>2025-06-11T09:57:01Z</timestamp>
+      <contributor>
+        <ip>82.58.32.186</ip>
+      </contributor>
+      <origin>1409</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="43" sha1="61dfpbl6dum3nzhwo7tnranceje9iaa" xml:space="preserve">[[Has type::Page]]
+
+[[Category:Exportable]]</text>
+      <sha1>61dfpbl6dum3nzhwo7tnranceje9iaa</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Proprietà:Timestamp</title>
+    <ns>102</ns>
+    <id>111</id>
+    <revision>
+      <id>1410</id>
+      <parentid>467</parentid>
+      <timestamp>2025-06-11T09:57:13Z</timestamp>
+      <contributor>
+        <ip>82.58.32.186</ip>
+      </contributor>
+      <origin>1410</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="43" sha1="g3quu2y4pi7mx8fbp8rdxtbkic7t2dz" xml:space="preserve">[[Has type::Date]]
+
+[[Category:Exportable]]</text>
+      <sha1>g3quu2y4pi7mx8fbp8rdxtbkic7t2dz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DataSetColumn</title>
+    <ns>10</ns>
+    <id>17</id>
+    <revision>
+      <id>1413</id>
+      <parentid>444</parentid>
+      <timestamp>2025-06-12T08:04:55Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1413</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1648" sha1="faj294si4le4d2u7li2tzajrarbgdd0" xml:space="preserve">===== &lt;big&gt;[[HasAttribute::{{{column}}}]]&lt;/big&gt;({{{GlassBoxType|}}} - {{{fk|}}}) =====
+* {{{description}}}
+*⚠{{{issues|}}}
+*{{{filter|}}}
+
+{{#subobject:{{{column}}}
+|IsA=DataSetColumn
+|ColumnOf={{PAGENAME}}
+|Description={{{description|}}}
+|DataSetColumn={{{column|}}}
+|ColumnType={{{type|}}}
+|ColumnProperty={{{property|}}}
+|GlassBoxType={{{GlassBoxType|}}}
+|GlassBoxSubType={{{GlassBoxSubType|}}}
+|Issues={{{issues|}}}
+|Filters={{{filter|}}}
+|ForeignKey={{{fk|}}}
+}}
+
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"column": {
+			"type": "string",
+			"required": true
+		},
+		"type": {},
+		"class": {},
+		"property": {
+			"label": "Proprietà"
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"GlassBoxType": {
+			"type": "string",
+			"suggestedvalues": [
+				"Identifier",
+				"Timestamp",
+				"Metric",
+				"Anagrafica",
+				"Geographic"
+			],
+			"required": true,
+			"suggested": true,
+			"label": "Tipo GlassBox"
+		},
+		"GlassBoxSubType": {
+			"label": "Sottotipo GlassBox",
+			"type": "string",
+			"suggestedvalues": [
+				"day",
+				"month",
+				"year",
+				"numeric",
+				"string",
+				"hour",
+				"minute",
+				"second",
+				"Remote"
+			],
+			"suggested": true
+		},
+		"issues": {
+			"label": "Criticità",
+			"type": "string"
+		},
+		"filter": {
+			"type": "string"
+		},
+		"fk": {
+			"type": "wiki-page-name",
+			"suggested": true
+		}
+	},
+	"paramOrder": [
+		"column",
+		"description",
+		"type",
+		"class",
+		"property",
+		"GlassBoxType",
+		"GlassBoxSubType",
+		"fk",
+		"issues",
+		"filter"
+	],
+	"format": "inline",
+	"description": "Descrittore completo di colonna"
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>faj294si4le4d2u7li2tzajrarbgdd0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DataSet</title>
+    <ns>10</ns>
+    <id>13</id>
+    <revision>
+      <id>1414</id>
+      <parentid>1412</parentid>
+      <timestamp>2025-06-12T08:05:10Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1414</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1367" sha1="fh4n0o6xrqpi725vxjmupc7g63ogi9v" xml:space="preserve">== Informazioni Generali del DataSet [[DataSet::{{{name|}}}]] ==
+[[Name::{{{name|}}}]] è un [[IsA::DataSet]] fornito da [[ProvidedBy::{{{provider|}}}]] 
+[[Identifier::{{{id|}}}]]
+
+{{#set:Description::{{{description|}}}}}
+{{{description|}}}
+
+* OpenData Portal: [[OpenDataDescription::{{{opendata_description|}}}]]
+* Direct link: [[DirectLink::{{{opendata|}}}]] 
+* OpenMetadata: [[OpenMetadata::{{{openmetadata|}}}]]
+* Periodicità: [[Periodicity::{{{periodicity|}}}]]
+
+
+
+&lt;noinclude&gt;
+[[Category:DataSetTemplates]][[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"name": {
+			"type": "string",
+			"default": "Nome Dataset",
+			"label": "Nome del dataset",
+			"required": true
+		},
+		"opendata": {
+			"type": "url",
+			"suggested": true,
+			"label": "OpenData Portal Direct Link"
+		},
+		"openmetadata": {
+			"type": "string",
+			"required": true,
+			"suggested": true,
+			"label": "OpenMetaData"
+		},
+		"opendata_description": {
+			"label": "Open Data Portal Descriptive Page",
+			"type": "url",
+			"suggested": true
+		},
+		"provider": {
+			"label": "Fornitore del dataset"
+		},
+		"id": {},
+		"periodicity": {},
+		"description": {}
+	},
+	"description": "Dataset nuovo",
+	"format": "block",
+	"paramOrder": [
+		"provider",
+		"name",
+		"opendata",
+		"opendata_description",
+		"openmetadata",
+		"id",
+		"periodicity",
+		"description"
+	]
+}
+&lt;/templatedata&gt;
+
+&lt;/noinclude&gt;</text>
+      <sha1>fh4n0o6xrqpi725vxjmupc7g63ogi9v</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DataSource</title>
+    <ns>10</ns>
+    <id>46</id>
+    <revision>
+      <id>1415</id>
+      <parentid>1350</parentid>
+      <timestamp>2025-06-12T08:05:19Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1415</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="220" sha1="4jjf47fkund8anfmiqk08upol3pd95g" xml:space="preserve">[[UsesDataset::{{{dataset|}}}]]
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"dataset": {
+			"type": "wiki-page-name",
+			"required": true
+		}
+	},
+	"format": "inline"
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>4jjf47fkund8anfmiqk08upol3pd95g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DataImportFormat</title>
+    <ns>10</ns>
+    <id>70</id>
+    <revision>
+      <id>1416</id>
+      <parentid>590</parentid>
+      <timestamp>2025-06-12T08:05:26Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1416</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="374" sha1="61hpy0t1iijgitq01c3pdda9vspee29" xml:space="preserve">=== Input Format ===
+[[HasFormat::{{{format}}}]]
+
+
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"format": {
+			"type": "string",
+			"suggestedvalues": [
+				"csv",
+				"parquet",
+				"shapefile",
+				"shapefile(zip)",
+				"geojson",
+				"geojson(zip)",
+				"GTFS",
+				"GBFS",
+				"json"
+			]
+		}
+	},
+	"format": "inline"
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>61hpy0t1iijgitq01c3pdda9vspee29</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Geolocated</title>
+    <ns>10</ns>
+    <id>57</id>
+    <revision>
+      <id>1417</id>
+      <parentid>428</parentid>
+      <timestamp>2025-06-12T08:05:32Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1417</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="816" sha1="0lca2klwcrmkn5zx6m23i03x6tgdn27" xml:space="preserve">== DataSet Geolocalizzato ==
+* Geometria: [[HasGeometry::{{{geometry|}}}]]
+* Campo: [[GeometryField::{{{field|}}}]]
+* Formato: [[GeometryFormat::{{{format|}}}]]
+
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"format": {
+			"type": "string",
+			"suggestedvalues": [
+				"GeoJSON",
+				"list",
+				"separate fields",
+				"wkt",
+				"Shapefile(native)",
+				"Geopackage(native)"
+			],
+			"default": "GeoJSON",
+			"required": true
+		},
+		"field": {
+			"type": "string",
+			"default": "&lt;native&gt;"
+		},
+		"geometry": {
+			"type": "string",
+			"suggestedvalues": [
+				"Point",
+				"Line",
+				"Polygon",
+				"Multipoint",
+				"Multiline",
+				"Multipolygon"
+			],
+			"default": "Point",
+			"required": true
+		}
+	},
+	"paramOrder": [
+		"geometry",
+		"format",
+		"field"
+	]
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>0lca2klwcrmkn5zx6m23i03x6tgdn27</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DataContainer</title>
+    <ns>10</ns>
+    <id>850</id>
+    <revision>
+      <id>1418</id>
+      <parentid>1388</parentid>
+      <timestamp>2025-06-12T08:05:40Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1418</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="341" sha1="9qqj9kaqbtcmijkkho9w4tg23nieirf" xml:space="preserve">[[Name::{{PAGENAME}}]] is a [[IsA::DataContainer]] using {{{mode|}}}.
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"mode": {
+			"type": "string",
+			"suggestedvalues": [
+				"dataset",
+				"join",
+				"filter",
+				"concatenate"
+			],
+			"default": "dataset",
+			"suggested": true
+		}
+	}
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>9qqj9kaqbtcmijkkho9w4tg23nieirf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Join</title>
+    <ns>10</ns>
+    <id>72</id>
+    <revision>
+      <id>1419</id>
+      <parentid>1348</parentid>
+      <timestamp>2025-06-12T08:05:46Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1419</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="594" sha1="pi1s18issckopfvoi4mm4nh6b13ahfu" xml:space="preserve">[[HasJoin::join_{{{left}}}_{{{right}}}]]
+{{#subobject:join_{{{left}}}_{{{right}}}
+|IsA=DataSetJoin
+|Name=join_{{{left}}}_{{{right}}}
+|LeftDataSet={{{left|}}}
+|LeftColumn={{{left_col|}}}
+|RightDataSet={{{right|}}}
+|RightColumn={{{right_col|}}}
+}}
+* Join: {{{left|}}} -&gt; {{{left_col|}}} :: {{{right_col|}}} &lt;- {{{right|}}}
+
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"left": {
+			"type": "wiki-page-name"
+		},
+		"left_col": {
+			"type": "string"
+		},
+		"right": {
+			"type": "wiki-page-name"
+		},
+		"right_col": {
+			"type": "string"
+		}
+	}
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>pi1s18issckopfvoi4mm4nh6b13ahfu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DataFilter</title>
+    <ns>10</ns>
+    <id>853</id>
+    <revision>
+      <id>1420</id>
+      <parentid>1376</parentid>
+      <timestamp>2025-06-12T08:06:46Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1420</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="695" sha1="fddhaj99jz03shlvaj7rfr22di7bwgq" xml:space="preserve">* {{{field|}}} {{{mode|}}} {{{value|}}}
+{{#set:
+|HasFilter={{PAGENAME}}:filter:{{{field|}}}:{{{mode|}}}:{{{value|}}} }}
+{{#subobject:{{PAGENAME}}:filter:{{{field|}}}:{{{mode|}}}:{{{value|}}}
+|Name={{PAGENAME}}:filter:{{{field|}}}:{{{mode|}}}:{{{value|}}}
+|Field={{{field|}}}
+|Mode={{{mode|}}}
+|Value={{{value|}}}
+}}
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"field": {},
+		"mode": {
+			"suggestedvalues": [
+				"equals",
+				"less than",
+				"greater than",
+				"less than or equals",
+				"greater than or equals",
+				"different than",
+				"contains",
+				"does not contain",
+				"starts with",
+				"ends with"
+			]
+		},
+		"value": {}
+	}
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>fddhaj99jz03shlvaj7rfr22di7bwgq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:FieldMapping</title>
+    <ns>10</ns>
+    <id>862</id>
+    <revision>
+      <id>1421</id>
+      <parentid>1401</parentid>
+      <timestamp>2025-06-12T08:07:01Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1421</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="597" sha1="hwwmdz7lvgff2jzjtfdk10fevvjwkpz" xml:space="preserve">{{{dataset1|}}}:{{{field1|}}} &lt;=&gt; {{{dataset2|}}}:{{{field2|}}} ({{{transformation|}}})
+
+
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"dataset1": {
+			"type": "wiki-page-name"
+		},
+		"dataset2": {
+			"type": "wiki-page-name"
+		},
+		"field1": {
+			"type": "wiki-page-name"
+		},
+		"field2": {
+			"type": "wiki-page-name"
+		},
+		"transformation": {
+			"type": "string"
+		},
+		"transformation_note": {
+			"type": "content"
+		}
+	},
+	"paramOrder": [
+		"dataset1",
+		"field1",
+		"dataset2",
+		"field2",
+		"transformation",
+		"transformation_note"
+	]
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>hwwmdz7lvgff2jzjtfdk10fevvjwkpz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Map</title>
+    <ns>10</ns>
+    <id>20</id>
+    <revision>
+      <id>1422</id>
+      <parentid>309</parentid>
+      <timestamp>2025-06-12T08:07:11Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1422</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="167" sha1="l7bzgob9753nbvvchrirxowgzyqfma0" xml:space="preserve">[[IsA::Map]]
+[[Map::{{{name}}}]]
+[[Name::{{{name}}}]]
+
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"name": {}
+	}
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>l7bzgob9753nbvvchrirxowgzyqfma0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:MapIndex</title>
+    <ns>10</ns>
+    <id>33</id>
+    <revision>
+      <id>1423</id>
+      <parentid>281</parentid>
+      <timestamp>2025-06-12T08:07:20Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1423</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="441" sha1="smsw15ft15rgakdoni024xzz173jgz0" xml:space="preserve">* [[HasIndex::{{{name}}}]] ([[{{{source}}}]])
+{{#subobject:{{{name}}}
+|IsA=MapIndex
+|Index={{{name|}}}
+|Field={{{field|}}}
+}}
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"name": {
+			"required": true,
+			"type": "string"
+		},
+		"source": {
+			"type": "wiki-page-name",
+			"required": true
+		},
+		"field": {
+			"type": "string"
+		}
+	},
+	"paramOrder": [
+		"name",
+		"field",
+		"source"
+	]
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>smsw15ft15rgakdoni024xzz173jgz0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:UseDataSource</title>
+    <ns>10</ns>
+    <id>68</id>
+    <revision>
+      <id>1424</id>
+      <parentid>269</parentid>
+      <timestamp>2025-06-12T08:07:29Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1424</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="474" sha1="ftq0bs39yb444kx2qilxyanzb5lnome" xml:space="preserve">Utilizza [[UseDataSource::{{{datasource}}}]] come {{{mode}}}
+
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"datasource": {
+			"type": "wiki-page-name",
+			"required": true
+		},
+		"mode": {
+			"type": "string",
+			"suggestedvalues": [
+				"Base Cartografica"
+			],
+			"default": "Base Cartografica",
+			"required": true
+		},
+		"field": {
+			"required": true
+		}
+	},
+	"paramOrder": [
+		"field",
+		"datasource",
+		"mode"
+	]
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>ftq0bs39yb444kx2qilxyanzb5lnome</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Unit</title>
+    <ns>10</ns>
+    <id>18</id>
+    <revision>
+      <id>1435</id>
+      <parentid>1432</parentid>
+      <timestamp>2025-09-17T07:22:00Z</timestamp>
+      <contributor>
+        <ip>82.58.28.171</ip>
+      </contributor>
+      <origin>1435</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="311" sha1="cf9x5gv9ljsxs1c9j6yzh06rkhh5ic7" xml:space="preserve">[[IsA::Unit]]
+
+
+==[[Name::{{{unit}}}]]==
+{| class="wikitable"
+|+ Testo della didascalia
+|-
+! Unit 
+|-
+| [[Unit::{{{unit}}}]] 
+
+|}
+
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"unit": {
+			"label": "Unit name",
+			"required": true
+		}
+	},
+	"format": "block"
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>cf9x5gv9ljsxs1c9j6yzh06rkhh5ic7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:NetworkUnit</title>
+    <ns>10</ns>
+    <id>43</id>
+    <revision>
+      <id>1426</id>
+      <parentid>378</parentid>
+      <timestamp>2025-06-12T08:07:44Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1426</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="163" sha1="1az7x0us67uaruyy419q7yyj88stq0h" xml:space="preserve">[[ConnectsTo::{{{name}}}]]
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"name": {
+			"type": "content"
+		}
+	}
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>1az7x0us67uaruyy419q7yyj88stq0h</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Rule</title>
+    <ns>10</ns>
+    <id>81</id>
+    <revision>
+      <id>1427</id>
+      <parentid>334</parentid>
+      <timestamp>2025-06-12T08:07:53Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1427</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="37" sha1="9gxrvd6olx84qgscqj18uc1ys66o2dl" xml:space="preserve">[[IsA::Rule]]
+[[Category:Exportable]]</text>
+      <sha1>9gxrvd6olx84qgscqj18uc1ys66o2dl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:UnitRule</title>
+    <ns>10</ns>
+    <id>22</id>
+    <revision>
+      <id>1428</id>
+      <parentid>355</parentid>
+      <timestamp>2025-06-12T08:08:01Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1428</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="562" sha1="rsoy8jjud2kycg5f2cxl92ble3y3izc" xml:space="preserve">[[IsA::Rule]]
+[[IsA::UnitRule]]
+[[UnitRule::{{{name}}}]]
+[[Name::{{{name}}}]]
+
+Applies to [[AppliesTo::{{{appliesTo}}}]]
+
+&lt;code&gt;
+
+UnitRule {{{name}}}
+[[RuleDefinition::{{{rules}}}]]
+end
+
+&lt;/code&gt;
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"name": {
+			"label": "Nome",
+			"type": "string",
+			"required": true
+		},
+		"rules": {
+			"type": "unbalanced-wikitext"
+		},
+		"appliesTo": {
+			"type": "content",
+			"required": true
+		},
+		"via": {
+			"type": "content"
+		},
+		"using": {
+			"type": "content"
+		}
+	}
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>rsoy8jjud2kycg5f2cxl92ble3y3izc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:AgentRule</title>
+    <ns>10</ns>
+    <id>30</id>
+    <revision>
+      <id>1429</id>
+      <parentid>336</parentid>
+      <timestamp>2025-06-12T08:08:07Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1429</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="383" sha1="mldm00avp822swbutpm1mbbg1c0iu83" xml:space="preserve">[[IsA::Rule]]
+[[IsA::AgentRule]]
+[[AgentRule::{{{name}}}]]
+[[Name::{{{name}}}]]
+
+
+&lt;code&gt;
+
+agentRule {{{name}}}
+[[RuleDefinition::{{{rules}}}]]
+end
+
+&lt;/code&gt;
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"name": {
+			"label": "Nome",
+			"type": "string",
+			"required": true
+		},
+		"rules": {
+			"type": "unbalanced-wikitext"
+		}
+	}
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>mldm00avp822swbutpm1mbbg1c0iu83</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Network</title>
+    <ns>10</ns>
+    <id>44</id>
+    <revision>
+      <id>1430</id>
+      <parentid>195</parentid>
+      <timestamp>2025-06-12T08:08:16Z</timestamp>
+      <contributor>
+        <username>Marco</username>
+        <id>4</id>
+      </contributor>
+      <origin>1430</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="151" sha1="aamxqc16ky53rqlzkjfctol11vdqkq4" xml:space="preserve">[[IsA::Network]]
+[[Name::{{{name}}}]]
+
+&lt;noinclude&gt;
+[[Category:Exportable]]
+&lt;templatedata&gt;
+{
+	"params": {
+		"name": {}
+	}
+}
+&lt;/templatedata&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>aamxqc16ky53rqlzkjfctol11vdqkq4</sha1>
+    </revision>
+  </page>
+</mediawiki>
